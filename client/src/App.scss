@@ -1,0 +1,53 @@
+.app-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80vw;
+  background-color: #eee;
+  border-radius: 10px;
+  margin: 20px;
+  height: 80vh;
+}
+
+.button-container {
+  margin-bottom: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 10px;
+
+  &--primary {
+    background-color: #007bff;
+  }
+
+  &--success {
+    background-color: #28a745;
+  }
+
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+.welcome-message {
+  color: #666;
+  font-size: 18px;
+}
+
+.loading-fallback {
+  padding: 40px;
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+}
+
